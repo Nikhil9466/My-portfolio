@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nagender Rao — Web Developer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body class="bg-[#090909] text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full z-50 border-b border-white/10 bg-black/60 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <div class="font-bold text-xl tracking-tight">
+        Nagender<span class="text-zinc-500">.</span>
+      </div>
+
+      <div class="hidden md:flex items-center gap-8 text-sm text-zinc-400">
+        <a href="#home" class="hover:text-white transition">Home</a>
+        <a href="#projects" class="hover:text-white transition">Projects</a>
+        <a href="#skills" class="hover:text-white transition">Skills</a>
+        <a href="#about" class="hover:text-white transition">About</a>
+      </div>
+
+      <a
+        href="#contact"
+        class="border border-white/20 px-4 py-2 rounded-lg text-sm hover:bg-white hover:text-black transition"
+      >
+        Contact
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="min-h-screen flex items-center pt-24">
+    <div class="max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-2 gap-16 items-center">
+
+      <div>
+
+        <div class="inline-flex items-center gap-2 border border-white/10 bg-white/5 px-3 py-2 rounded-full text-sm text-zinc-400 mb-6">
+          <span class="w-2 h-2 bg-green-400 rounded-full"></span>
+          Open to internships
+        </div>
+
+        <p class="text-zinc-500 mb-3 text-lg">
+          Hey, I'm Nagender Rao
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight">
+          Web Developer
+          <span class="text-zinc-500"> building useful products.</span>
+        </h1>
+
+        <p class="mt-6 text-lg text-zinc-400 max-w-xl leading-relaxed">
+          I build practical web applications with clean interfaces,
+          backend systems and databases.
+        </p>
+
+        <div class="flex flex-wrap gap-4 mt-8">
+
+          <a
+            href="#projects"
+            class="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:bg-zinc-200 transition"
+          >
+            View Projects
+          </a>
+
+          <a
+            href="https://github.com/Nikhil9466"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border border-white/15 px-6 py-3 rounded-xl text-zinc-300 hover:bg-white/5 transition"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nagender-rao-673b80299"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border border-white/15 px-6 py-3 rounded-xl text-zinc-300 hover:bg-white/5 transition"
+          >
+            LinkedIn ↗
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Code panel -->
+      <div class="relative">
+
+        <div class="absolute -inset-10 bg-purple-500/10 blur-3xl rounded-full"></div>
+
+        <div class="relative border border-white/10 bg-[#111] rounded-2xl overflow-hidden shadow-2xl">
+
+          <div class="flex items-center gap-2 px-4 py-3 border-b border-white/10">
+            <span class="w-3 h-3 rounded-full bg-red-400"></span>
+            <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+            <span class="w-3 h-3 rounded-full bg-green-400"></span>
+          </div>
+
+          <div class="p-6 font-mono text-sm leading-7 text-zinc-400">
+
+            <p>
+              <span class="text-purple-400">const</span> developer = {
+            </p>
+
+            <p class="pl-6">
+              name:
+              <span class="text-green-400">"Nagender Rao"</span>,
+            </p>
+
+            <p class="pl-6">
+              role:
+              <span class="text-green-400">"Web Developer"</span>,
+            </p>
+
+            <p class="pl-6">
+              education:
+              <span class="text-green-400">"BTech"</span>,
+            </p>
+
+            <p class="pl-6">
+              skills: [
+              <span class="text-green-400">"JavaScript"</span>,
+              <span class="text-green-400">"Node.js"</span>,
+              <span class="text-green-400">"PostgreSQL"</span>
+              ],
+            </p>
+
+            <p class="pl-6">
+              focus:
+              <span class="text-green-400">"Full Stack Development"</span>,
+            </p>
+
+            <p>};</p>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-28 border-t border-white/10">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+
+        <div>
+
+          <p class="text-zinc-500 uppercase tracking-[0.25em] text-xs mb-3">
+            Selected Work
+          </p>
+
+          <h2 class="text-4xl md:text-5xl font-bold">
+            Projects
+          </h2>
+
+        </div>
+
+        <p class="text-zinc-500 max-w-md">
+          Projects where I worked on frontend, backend,
+          databases and real application logic.
+        </p>
+
+      </div>
+
+      <!-- CRM Featured Project -->
+      <div class="group border border-white/10 bg-[#111] rounded-2xl overflow-hidden">
+
+        <!-- Screenshot -->
+        <div class="relative overflow-hidden border-b border-white/10">
+
+          <img
+            src="assets/dashboard.png"
+            alt="CRM Management System Dashboard"
+            class="w-full aspect-[16/8] object-cover object-top transition duration-500 group-hover:scale-[1.015]"
+          />
+
+          <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none"></div>
+
+        </div>
+
+        <!-- Content -->
+        <div class="p-7 md:p-10">
+
+          <div class="flex flex-col lg:flex-row lg:justify-between gap-10">
+
+            <div class="max-w-3xl">
+
+              <div class="flex flex-wrap items-center gap-2 text-xs text-zinc-500 mb-4">
+
+                <span>01 / Featured Project</span>
+
+                <span class="text-zinc-700">•</span>
+
+                <span>2026</span>
+
+                <span class="text-zinc-700">•</span>
+
+                <span>Full-stack Web Application</span>
+
+              </div>
+
+              <h3 class="text-3xl md:text-4xl font-bold tracking-tight">
+                CRM Management System
+              </h3>
+
+              <p class="text-sm text-zinc-500 mt-2">
+                Built during my 4th year of BTech
+              </p>
+
+              <p class="text-zinc-400 mt-5 leading-relaxed max-w-2xl">
+                A full-stack CRM built to manage customer relationships,
+                deals, tasks, employees and teams from one workspace.
+                It includes role-based access, attendance management,
+                activity history, reporting and recoverable deleted records.
+              </p>
+
+              <!-- Technologies -->
+              <div class="flex flex-wrap gap-2 mt-6">
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  JavaScript
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  Node.js
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  Express.js
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  PostgreSQL
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  Prisma
+                </span>
+
+              </div>
+
+              <!-- Contribution -->
+              <div class="mt-7 pt-6 border-t border-white/10">
+
+                <p class="text-xs uppercase tracking-[0.2em] text-zinc-600 mb-2">
+                  My Contribution
+                </p>
+
+                <p class="text-sm text-zinc-400">
+                  Frontend · Backend · Database · Role & team system · Attendance
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- Project buttons -->
+            <div class="flex lg:flex-col gap-3 lg:min-w-[145px]">
+
+              <a
+                href="https://github.com/Nikhil9466/CRM"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-center border border-white/15 px-5 py-3 rounded-xl text-sm font-medium hover:bg-white hover:text-black transition"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="assets/Nagender_Rao_CRM_Portfolio_Presentation.pptx"
+                target="_blank"
+                class="text-center border border-white/15 px-5 py-3 rounded-xl text-sm font-medium hover:bg-white hover:text-black transition"
+              >
+                View PPT ↗
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Future Projects -->
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+
+        <div class="border border-white/10 bg-[#111] rounded-2xl p-7 hover:border-white/20 transition">
+
+          <p class="text-sm text-zinc-500">
+            02
+          </p>
+
+          <h3 class="text-2xl font-semibold mt-4">
+            More coming soon
+          </h3>
+
+          <p class="text-zinc-500 mt-3">
+            Another project will be added here.
+          </p>
+
+        </div>
+
+        <div class="border border-white/10 bg-[#111] rounded-2xl p-7 hover:border-white/20 transition">
+
+          <p class="text-sm text-zinc-500">
+            03
+          </p>
+
+          <h3 class="text-2xl font-semibold mt-4">
+            More coming soon
+          </h3>
+
+          <p class="text-zinc-500 mt-3">
+            Another project will be added here.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-28 border-t border-white/10">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <p class="text-zinc-500 uppercase tracking-[0.25em] text-xs mb-3">
+        Toolkit
+      </p>
+
+      <h2 class="text-4xl font-bold mb-12">
+        Technologies I use
+      </h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          HTML
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          Tailwind CSS
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          JavaScript
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          Node.js
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          Express.js
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          PostgreSQL
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          Prisma
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          Git & GitHub
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-28 border-t border-white/10">
+
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14">
+
+      <div>
+
+        <p class="text-zinc-500 uppercase tracking-[0.25em] text-xs mb-3">
+          About
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+          Building things,
+          learning while doing.
+        </h2>
+
+      </div>
+
+      <div class="text-zinc-400 leading-8 text-lg">
+
+        <p>
+          I'm Nagender Rao, a BTech student interested in web development,
+          backend systems and building practical web applications.
+        </p>
+
+        <p class="mt-5">
+          I prefer learning by working on real projects, solving problems
+          and turning ideas into usable software.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-28 border-t border-white/10">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="rounded-3xl border border-white/10 bg-[#111] p-10 md:p-16">
+
+        <p class="text-zinc-500 text-sm mb-4">
+          Have an opportunity?
+        </p>
+
+        <h2 class="text-4xl md:text-6xl font-bold max-w-3xl">
+          Let’s build something useful.
+        </h2>
+
+        <div class="flex flex-wrap gap-4 mt-8">
+
+          <a
+            href="https://www.linkedin.com/in/nagender-rao-673b80299"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:bg-zinc-200 transition"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/Nikhil9466"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border border-white/15 px-6 py-3 rounded-xl hover:bg-white/5 transition"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+
+    <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row gap-4 justify-between text-sm text-zinc-600">
+
+      <p>
+        © 2026 Nagender Rao
+      </p>
+
+      <p>
+        Built with HTML + Tailwind CSS
+      </p>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
