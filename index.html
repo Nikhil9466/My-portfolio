@@ -54,7 +54,7 @@
   </nav>
 
   <!-- Hero -->
-  <section id="home" class="min-h-screen flex items-center pt-24">
+  <section id="home" class="min-h-screen flex items-center pt-24 overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-2 gap-16 items-center">
 
       <div>
@@ -311,13 +311,134 @@
 
       </div>
 
+      <!-- CoffeeNchat Featured Project -->
+      <div id="coffeenchat" class="group mt-6 border border-white/10 bg-[#111] rounded-2xl overflow-hidden scroll-mt-24">
+
+        <!-- Screenshot -->
+        <div class="relative overflow-hidden border-b border-white/10">
+
+          <img
+            src="assets/CoffeeNchat-preview.png"
+            alt="CoffeeNchat desktop and mobile messaging preview"
+            class="w-full aspect-[16/10] object-cover object-top transition duration-500 group-hover:scale-[1.015]"
+          />
+
+          <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none"></div>
+
+        </div>
+
+        <!-- Content -->
+        <div class="p-7 md:p-10">
+
+          <div class="flex flex-col lg:flex-row lg:justify-between gap-10">
+
+            <div class="max-w-3xl">
+
+              <div class="flex flex-wrap items-center gap-2 text-xs text-zinc-500 mb-4">
+
+                <span>02 / Featured Project</span>
+
+                <span class="text-zinc-700">•</span>
+
+                <span>2026</span>
+
+                <span class="text-zinc-700">•</span>
+
+                <span>Full-stack Web Application</span>
+
+              </div>
+
+              <h3 class="text-3xl md:text-4xl font-bold tracking-tight">
+                CoffeeNchat
+              </h3>
+
+              <p class="text-sm text-zinc-500 mt-2">
+                Real-time messaging, from interface to infrastructure
+              </p>
+
+              <p class="text-zinc-400 mt-5 leading-relaxed max-w-2xl">
+                A real-time chat workspace for direct conversations and groups,
+                with searchable history, protected file sharing and saved messages.
+                It brings together revocable sessions, group permissions and
+                cross-worker WebSocket updates in a responsive dark and light interface.
+              </p>
+
+              <!-- Technologies -->
+              <div class="flex flex-wrap gap-2 mt-6">
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  React + TypeScript
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  Python
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  FastAPI
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  PostgreSQL
+                </span>
+
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-zinc-400">
+                  WebSockets
+                </span>
+
+              </div>
+
+              <!-- Contribution -->
+              <div class="mt-7 pt-6 border-t border-white/10">
+
+                <p class="text-xs uppercase tracking-[0.2em] text-zinc-600 mb-2">
+                  My Contribution
+                </p>
+
+                <p class="text-sm text-zinc-400">
+                  Frontend · Backend · PostgreSQL · WebSocket delivery · Authentication & testing
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- Project buttons -->
+            <div class="flex lg:flex-col gap-3 lg:min-w-[145px]">
+
+              <a
+                href="https://github.com/Nikhil9466/CoffeeNchat"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-center border border-white/15 px-5 py-3 rounded-xl text-sm font-medium hover:bg-white hover:text-black transition"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="assets/CoffeeNchat-preview.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-center border border-white/15 px-5 py-3 rounded-xl text-sm font-medium hover:bg-white hover:text-black transition"
+              >
+                View PDF ↗
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
       <!-- Future Projects -->
       <div class="grid md:grid-cols-2 gap-6 mt-6">
 
         <div class="border border-white/10 bg-[#111] rounded-2xl p-7 hover:border-white/20 transition">
 
           <p class="text-sm text-zinc-500">
-            02
+            03
           </p>
 
           <h3 class="text-2xl font-semibold mt-4">
@@ -333,7 +454,7 @@
         <div class="border border-white/10 bg-[#111] rounded-2xl p-7 hover:border-white/20 transition">
 
           <p class="text-sm text-zinc-500">
-            03
+            04
           </p>
 
           <h3 class="text-2xl font-semibold mt-4">
@@ -396,6 +517,22 @@
 
         <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
           Git & GitHub
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          React
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          TypeScript
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          Python
+        </div>
+
+        <div class="border border-white/10 bg-white/[0.03] rounded-xl p-6">
+          FastAPI
         </div>
 
       </div>
